@@ -1,0 +1,12 @@
+flax>=0.10.0
+ipython>=8.27.0
+jax>=0.5.0
+jupyterlab>=4.2.0
+matplotlib>=3.9.0
+notebook>=7.2.0
+numpy>=2.0.0
+optax>=0.2.3
+pillow>=10.0.0
+scipy>=1.14.0
+tqdm>=4.66.0
+

@@ -1,0 +1,18 @@
+[project]
+name = "ngif-demo"
+version = "0.1.0"
+description = "Minimal notebook-first NGIF demo for tracer particles."
+readme = "README.md"
+requires-python = ">=3.11"
+dynamic = ["dependencies"]
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ngif*"]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
